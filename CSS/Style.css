@@ -50,6 +50,7 @@ nav a {
 
 .Home-bg   {
     background-image: url("../Resources/Background.png");
+    background-color: #F2A9A2;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -59,6 +60,7 @@ nav a {
 .Contact-bg {
     background-color: #F2A9A2;
 }
+
 .container  {
     display: grid;
     grid-template-columns: 1fr 1fr;
