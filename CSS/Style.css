@@ -55,3 +55,31 @@ nav a {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.container  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem calc((100vw-1300px)/2);
+}
+
+.LeftColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color:black;
+    padding: 0rem 2rem;
+}
+
+.LeftColumn h1  {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.LeftColumn p   {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
