@@ -38,3 +38,7 @@ nav a {
     padding: 1rem;
     text-decoration: none;
 }
+
+.navbar a:hover {
+    color: #000;
+}
